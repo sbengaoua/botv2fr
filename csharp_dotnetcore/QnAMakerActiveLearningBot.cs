@@ -31,7 +31,7 @@ namespace QnAMakerActiveLearningBot
         /// </summary>
         public static readonly string QnAMakerKey = "QnAMakerActiveLearning";
 
-        private const string WelcomeText = "Welcome, I'm the Beijabot, I'm here to help you to answer to every security questions. Please ask me something to start the chat.";
+        private const string WelcomeText = ", Je suis Beijabot, je suis la pour répondre à toutes vos questions de sécurité, demandez moi quelque chose pour commencer le chat";
         private readonly BotAccessors _accessors;
         private QnAMakerOptions _qnaMakerOptions;
 
@@ -141,7 +141,7 @@ namespace QnAMakerActiveLearningBot
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
                     await turnContext.SendActivityAsync(
-                        $"Welcome to QnA Maker Bot {member.Name}. {WelcomeText}",
+                        $"{WelcomeText}",
                         cancellationToken: cancellationToken);
                 }
             }
