@@ -1,0 +1,24 @@
+﻿{
+  "name": "qnamaker-activelearning",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "qna",
+      "EndpointKey": "9d29c853-32be-4d3f-96bb-b091fd69a7b2",
+      "Hostname": "https://chatbotssi.azurewebsites.net/qnamaker",
+      "KbId": "0efa14e7-eab9-4188-917a-97d177059b85",
+      "SubscriptionKey": "",
+      "id": "118",
+      "name": "QnAMakerActiveLearning"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
