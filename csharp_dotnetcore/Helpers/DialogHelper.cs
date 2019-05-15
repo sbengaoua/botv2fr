@@ -154,7 +154,7 @@ namespace QnAMakerActiveLearningBot.Helpers
             }
             else
             {
-                var msg = "Je n'ai pas compris ce que vous vouliez dire. Je ne suis pas apte à répondre à cette question. Veuillez envoyer la question à cette adresse : [@]";
+                var msg = "Je n'ai pas compris ce que vous vouliez dire. Je ne suis pas apte à répondre à cette question. Veuillez envoyer la question à cette adresse : sbengaoua753@beijaflore.com";
                 await stepContext.Context.SendActivityAsync(msg, cancellationToken: cancellationToken);
             }
 
