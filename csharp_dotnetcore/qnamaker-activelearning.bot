@@ -11,9 +11,9 @@
     },
     {
       "type": "qna",
-      "EndpointKey": "9d29c853-32be-4d3f-96bb-b091fd69a7b2",
+      "EndpointKey": "aa0e7ba4-fc3f-4175-b02c-2f80c67708a9",
       "Hostname": "https://chatbotssi.azurewebsites.net/qnamaker",
-      "KbId": "f562a94d-bfb3-41d2-9faa-0d877b8b76d5",
+      "KbId": "f557d587-2068-4016-a2cc-6b5fe870feb6",
       "SubscriptionKey": "",
       "id": "118",
       "name": "QnAMakerActiveLearning"
