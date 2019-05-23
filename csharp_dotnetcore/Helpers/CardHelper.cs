@@ -15,7 +15,7 @@ namespace QnAMakerActiveLearningBot.Helpers
         /// <param name="cardTitle">Title of the cards</param>
         /// <param name="cardNoMatchText">No match text</param>
         /// <returns></returns>
-        public static IMessageActivity GetHeroCard(List<string> suggestionsList, string cardTitle = "Did you mean:", string cardNoMatchText = "None of the above.")
+        public static IMessageActivity GetHeroCard(List<string> suggestionsList, string cardTitle = "Voulez-vous dire:", string cardNoMatchText = "Aucune de ces réponses.")
         {
             var chatActivity = Activity.CreateMessageActivity();
             var buttonList = new List<CardAction>();
